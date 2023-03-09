@@ -1,0 +1,42 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.Container{
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      background: linear-gradient(346deg , #231942 , #5E548E);
+}
+.InputContainer{
+      position: fixed;
+      padding: 10px;
+      background: #978dcb;
+      width: 100%;
+      display: flex;
+      bottom: 0px;
+}
+.inputtag{
+      border: 1px solid #000;
+      background: #c6bcf8;
+      width: 90%;
+      height: 12vh;
+      font-size: 1.3rem;
+      outline: none;
+      padding: 5px;
+}
+.submitbutton{
+      border: 1px solid #000;
+      text-align: center;
+      background: #26e70d;
+      padding: 10px;
+      font-size: 1.2rem;
+      cursor: pointer;
+}
+.OutputText{
+      width: 100%;
+      height: 90vh;
+      font-size: 1.3rem;
+}

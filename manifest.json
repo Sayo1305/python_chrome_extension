@@ -1,0 +1,21 @@
+{
+      "name" : "Python Browser IDE" , 
+      "version" : "1.0.0",
+      "description" : "An extenison with 1 click a Python browser IDE will generated",
+      "manifest_version" : 3,
+      "action" : {
+            "default_popup" : "popup.html",
+            "default_icon" : "images/ide32.png"
+      },
+      "icons": {
+            "16": "images/ide16.png",
+            "24": "images/ide24.png",
+            "32": "images/ide32.png",
+            "64": "images/ide64.png",
+            "128": "images/ide128.png"
+      },
+      "permissions": [
+            "storage"
+      ],
+      "options_page" : "option.html"
+}
